@@ -1,9 +1,9 @@
-<header>
+<header class="container">
     <nav>
         <img src="{{ asset('images/dc-logo.png')}}" alt="">
         <ul>
             <li>characters</li>
-            <li>comics</li>
+            <li class="active">comics</li>
             <li>movies</li>
             <li>tv</li>
             <li>games</li>
@@ -18,7 +18,5 @@
             <i class="fas fa-search"></i>
         </div>
     </nav>
-    <div class="banner">
-
-    </div>
 </header>
+<div class="banner" style="background: url({{asset('images/jumbotron.jpg')}})"></div>

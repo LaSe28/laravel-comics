@@ -14,5 +14,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
-    return view('guest.home');
+    $comics = config('comics');
+    $data = [
+        'comics' => $comics
+    ];
+    return view('guest.home', $data);
 });
+

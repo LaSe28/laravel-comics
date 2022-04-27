@@ -1,0 +1,51 @@
+//
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header{
+    height: 5rem;
+    img{
+        height: 80%;
+    }
+    nav{
+        height: 100%;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        ul{
+            height: 100%;
+            width: 60%;
+            list-style: none;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            li{
+                text-transform: uppercase;
+                line-height: 5rem;
+                border-bottom: 4px solid #3880F1;
+            }
+        }
+    }
+    .input-sec{
+        border-bottom: 3px solid #3880F1;
+        input{
+            border: none;
+            &::placeholder{
+                text-align: right;
+                position: relative;
+                bottom: 2px;
+            }
+        }
+    }
+    .banner{
+        background:url() ;
+    }
+}

@@ -40,6 +40,10 @@ header{
                 margin: 0 .5rem;
                 line-height: 5rem;
                 border-bottom: 6px solid transparent;
+                a{
+                    color: black;
+                    text-decoration: none;
+                }
             }
             .active{
                 color: #3880F1;
@@ -51,6 +55,7 @@ header{
         border-bottom: 3px solid #3880F1;
         input{
             border: none;
+            outline: none;
             &::placeholder{
                 text-align: right;
                 position: relative;
@@ -86,6 +91,9 @@ main{
                     width: 100%;
                 }
 
+            }
+            h5{
+                margin-top: 1rem;
             }
         }
     }

@@ -1,17 +1,55 @@
 <header class="container">
     <nav>
         <img src="{{ asset('images/dc-logo.png')}}" alt="">
+
+        @php
+            $arrMenu = [
+                [
+                    'name' => 'characters',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'comics',
+                    'route' => 'comics'
+                ],
+                [
+                    'name' => 'movies',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'tv',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'games',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'collectibles',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'videos',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'fans',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'news',
+                    'route' => ''
+                ],
+                [
+                    'name' => 'shop',
+                    'route' => ''
+                ],
+            ]
+        @endphp
         <ul>
-            <li>characters</li>
-            <li class="active">comics</li>
-            <li>movies</li>
-            <li>tv</li>
-            <li>games</li>
-            <li>collectibles</li>
-            <li>videos</li>
-            <li>fans</li>
-            <li>news</li>
-            <li>shop</li>
+            @foreach ($arrMenu as $menuItem)
+                <li><a href="/{{$menuItem['route']}}">{{$menuItem['name']}}</a></li>
+            @endforeach
         </ul>
         <div class="input-sec">
             <input type="text" placeholder="Search">

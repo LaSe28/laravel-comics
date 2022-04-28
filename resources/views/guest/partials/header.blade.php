@@ -19,4 +19,4 @@
         </div>
     </nav>
 </header>
-<div class="banner"><img src="{{asset('images/jumbotron.jpg')}}" alt=""></div>
+<div class="banner-header"><img src="{{asset('images/jumbotron.jpg')}}" alt=""></div>

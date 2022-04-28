@@ -59,7 +59,7 @@ header{
         }
     }
 }
-.banner{
+.banner-header{
     height: 450px;
     overflow: hidden;
     img{
@@ -114,14 +114,18 @@ main{
 
 // section footer      ********************************************************
 
+.banner
 footer{
     overflow: hidden;
     height: 40vh;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    img{
-        height: 110%;
+    .img-container{
+        height: 100%;
+        img{
+
+        }
     }
     .list-container{
         height: 80%;

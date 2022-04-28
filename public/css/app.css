@@ -62,11 +62,11 @@ header .input-sec input::placeholder {
   bottom: 2px;
 }
 
-.banner {
+.banner-header {
   height: 450px;
   overflow: hidden;
 }
-.banner img {
+.banner-header img {
   width: 100%;
 }
 
@@ -111,33 +111,33 @@ main .card-container .card .thumb img {
   margin: 0 1rem;
 }
 
-footer {
+.banner footer {
   overflow: hidden;
   height: 40vh;
   display: flex;
   justify-content: space-between;
   align-items: center;
 }
-footer img {
-  height: 110%;
+.banner footer .img-container {
+  height: 100%;
 }
-footer .list-container {
+.banner footer .list-container {
   height: 80%;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
-footer .list-container ul {
+.banner footer .list-container ul {
   margin-right: 3rem;
   color: white;
   list-style: none;
 }
-footer .list-container ul h4 {
+.banner footer .list-container ul h4 {
   margin-bottom: 0.5rem;
   margin-top: 0.5rem;
   text-transform: uppercase;
 }
-footer .list-container ul li {
+.banner footer .list-container ul li {
   color: grey;
 }
 

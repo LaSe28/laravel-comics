@@ -118,9 +118,6 @@ main .card-container .card .thumb img {
   justify-content: space-between;
   align-items: center;
 }
-.banner footer .img-container {
-  height: 100%;
-}
 .banner footer .list-container {
   height: 80%;
   display: flex;
